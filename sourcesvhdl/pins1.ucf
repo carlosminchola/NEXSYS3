@@ -1,0 +1,18 @@
+NET "clk" LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+Net start LOC=A8  |  IOSTANDARD=LVCMOS33;
+Net rst LOC=B8  |  IOSTANDARD=LVCMOS33;
+
+Net ledsyn LOC=T11  |  IOSTANDARD=LVCMOS33;
+Net ledinit LOC=R11  |  IOSTANDARD=LVCMOS33;
+Net ledpic LOC=N11  |  IOSTANDARD=LVCMOS33;
+Net led_failed_initial LOC=M11  |  IOSTANDARD=LVCMOS33;
+Net led_failed_sync LOC=V15  |  IOSTANDARD=LVCMOS33;
+Net led_failed_picture LOC=U15  |  IOSTANDARD=LVCMOS33;
+
+NET rx LOC = "G11" | IOSTANDARD = "LVCMOS33";   
+NET tx LOC = "F10" | IOSTANDARD = "LVCMOS33";   
+NET tx_pc LOC = "N17" | IOSTANDARD = "LVCMOS33"; 
+NET tp LOC = "F11" | IOSTANDARD = "LVCMOS33"; 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/video_controller/uCAMII/NEXSYS3/ISE/tb_UARTest1_isim_beh.exe" -prj "D:/video_controller/uCAMII/NEXSYS3/ISE/tb_UARTest1_beh.prj" "work.tb_UARTest1" 

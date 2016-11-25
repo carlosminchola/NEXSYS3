@@ -1,0 +1,25 @@
+NET "clk"            LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+
+Net load LOC=A8  |  IOSTANDARD=LVCMOS33;
+Net reset LOC=B8  |  IOSTANDARD=LVCMOS33;
+
+
+Net segments<0> LOC=T17  |  IOSTANDARD=LVCMOS33;
+Net segments<1> LOC=T18  |  IOSTANDARD=LVCMOS33;
+Net segments<2> LOC=U17  |  IOSTANDARD=LVCMOS33;
+Net segments<3> LOC=U18  |  IOSTANDARD=LVCMOS33;
+Net segments<4> LOC=M14  |  IOSTANDARD=LVCMOS33;
+Net segments<5> LOC=N14  |  IOSTANDARD=LVCMOS33;
+Net segments<6> LOC=L14  |  IOSTANDARD=LVCMOS33;
+Net dp LOC=M13  |  IOSTANDARD=LVCMOS33;
+
+Net anodes<0> LOC=P17  |  IOSTANDARD=LVCMOS33;
+Net anodes<1> LOC=P18  |  IOSTANDARD=LVCMOS33;
+Net anodes<2> LOC=N15  |  IOSTANDARD=LVCMOS33;
+Net anodes<3> LOC=N16  |  IOSTANDARD=LVCMOS33;
+
+NET rx          LOC = "G11" | IOSTANDARD = "LVCMOS33";   
+NET tx          LOC = "F10" | IOSTANDARD = "LVCMOS33";   
