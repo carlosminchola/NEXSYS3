@@ -1,0 +1,7 @@
+vhdl work "../sourcesvhdl/UARTTransmitter.vhd"
+vhdl work "../sourcesvhdl/UARTReciever.vhd"
+vhdl work "../sourcesvhdl/UARTCtrl.vhd"
+vhdl work "../sourcesvhdl/led7seg.vhd"
+vhdl work "../sourcesvhdl/BaudRateGenerator.vhd"
+vhdl work "../sourcesvhdl/UARTest1.vhd"
+vhdl work "../sourcesvhdl/tb_uart.vhd"

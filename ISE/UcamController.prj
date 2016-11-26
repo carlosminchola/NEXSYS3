@@ -1,0 +1,8 @@
+vhdl work "../sourcesvhdl/UARTTransmitter.vhd"
+vhdl work "../sourcesvhdl/UARTReciever.vhd"
+vhdl work "../sourcesvhdl/my_package.vhd"
+vhdl work "../sourcesvhdl/SendCommand.vhd"
+vhdl work "../sourcesvhdl/ReceiveCommand.vhd"
+vhdl work "../sourcesvhdl/Debounce.vhd"
+vhdl work "../sourcesvhdl/BaudRateGenerator.vhd"
+vhdl work "../sourcesvhdl/UcamController.vhd"

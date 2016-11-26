@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\video_controller\uCAMII\NEXSYS3\ISE\impact.xsl
+OUTFILE=D:\video_controller\uCAMII\NEXSYS3\ISE\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\video_controller\uCAMII\NEXSYS3\ISE
+LICENSE=iMPACT
+USER_INFO=iMPACT
